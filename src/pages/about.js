@@ -76,9 +76,9 @@ export default function About() {
                 rel="noreferrer"
               >
                 <Image
-                  width={100}
-                  height={100}
-                  layout="responsive"
+                  width={300}
+                  height={300}
+                  layout="fixed"
                   src="/duy.png"
                   alt="duy"
                   className={mui.team_image}
@@ -93,9 +93,9 @@ export default function About() {
                 rel="noreferrer"
               >
                 <Image
-                  width={100}
-                  height={100}
-                  layout="responsive"
+                  width={300}
+                  height={300}
+                  layout="fixed"
                   src="/anh.jpg"
                   alt="anh"
                   className={mui.team_image}
