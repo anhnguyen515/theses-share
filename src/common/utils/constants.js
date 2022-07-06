@@ -156,7 +156,7 @@ export const colDef = [
     align: "center",
     sortable: true,
     valueFormatter: (params) => {
-      return params.value.toString().replace(",", "");
+      return params.value;
     },
   },
 
