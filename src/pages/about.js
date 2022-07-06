@@ -69,7 +69,7 @@ export default function About() {
           <br />
           <h2 className={mui.heading}>Các thành viên</h2>
           <Grid container className={mui.team_container}>
-            <Grid item xs={12} sm={6} lg={3} className={mui.member}>
+            <Grid item xs={12} sm={6} className={mui.member}>
               <a
                 href="https://github.com/nhoxlove2k15"
                 target="_blank"
@@ -86,7 +86,7 @@ export default function About() {
                 <p>Đôn Khánh Duy</p>
               </a>
             </Grid>
-            <Grid item xs={12} sm={6} lg={3} className={mui.member}>
+            <Grid item xs={12} sm={6} className={mui.member}>
               <a
                 href="https://github.com/anhnguyen515"
                 target="_blank"
