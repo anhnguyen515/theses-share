@@ -43,6 +43,10 @@ export const navlinks = [
     cate: "Năm",
     lists: [
       {
+        name: "2022",
+        query: getUrlQuery("published_year", 2022),
+      },
+      {
         name: "2021",
         query: getUrlQuery("published_year", 2021),
       },
