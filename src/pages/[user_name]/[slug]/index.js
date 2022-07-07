@@ -347,7 +347,6 @@ export default function ThesisDetail({ details, apiUrl }) {
             >
               <Button
                 variant="outlined"
-                className={classes.delBtn}
                 onClick={handleOpenDialog}
               >
                 Xoá
